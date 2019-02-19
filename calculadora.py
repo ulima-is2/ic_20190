@@ -10,7 +10,7 @@ class Calculadora:
         elif isinstance(op1, int) and isinstance(op2, int):
             return op1 + op2
         else:
-            return None
+            return ""
 
     def restar(self, op1, op2):
         return op1 - op2
